@@ -1,0 +1,1 @@
+# Vencop — API Error Handling
