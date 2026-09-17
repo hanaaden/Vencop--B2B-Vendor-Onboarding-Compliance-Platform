@@ -1,7 +1,7 @@
 import {app} from "./app"
+import {env} from "./config/env"
 
-const PORT = 3131
 
-app.listen(PORT, ()=>{
-    console.log(`the server is running ${PORT}`)
+app.listen(env.port, ()=>{
+    console.log(`the server is running ${env.port}`)
 })
