@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/server.ts",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "migrate": "node-pg-migrate"
   },
   "keywords": [],
   "author": "",
@@ -36,6 +37,7 @@
     "@types/node": "^24.13.4",
     "@types/pdfkit": "^0.17.6",
     "@types/pg": "^8.23.1",
+    "node-pg-migrate": "^9.0.0",
     "nodemon": "^3.1.14",
     "ts-node": "^10.9.2",
     "tsx": "^4.23.13",

@@ -10,5 +10,5 @@ function getEnv(name : string): string{
 } 
 export const env={
     port : Number(getEnv("PORT")),
-    DB_URL : getEnv("DB_URL")
+    DATABASE_URL : getEnv("DATABASE_URL")
 }
